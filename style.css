@@ -1,0 +1,100 @@
+body{
+    width: 60%;
+    margin: auto;
+    background-image: url(MaterialeEsercizioLim/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* arrow \2192 */
+
+#alpha-box{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding-bottom: 5%;
+}
+
+header img{
+    width: 200px;
+    padding: 5% 5% 1% 5%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+header span{
+    color: lime;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.aligned-nav{
+    text-align: center;
+    background-color: lime;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    height: 35px;
+    padding-top: 12px;
+}
+
+div button{
+    text-align: center;
+}
+
+section{
+    padding-top: 25px;
+    font-size: 15px;
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+
+.scooter-name{
+    font-size: 25px;
+}
+
+.position:before{
+    content: "\2192";
+}
+
+.battery-status{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 2.5px;
+}
+
+#Gino22-battery-status{
+    background-color: orange;
+    width: 35%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#Mike24-battery-status{
+    background-color: lime;
+    width: 65%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+#Fede154-battery-status{
+    background-color: red;
+    width: 15%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+/* Le caratteristiche height e border-radius dei 
+battery status possono essere scritte con un unico selettore.
+
+Da migliorare*/
